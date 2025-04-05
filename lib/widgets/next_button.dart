@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:quiz_app/constants.dart';
 
 class NextButton extends StatelessWidget {
-  const NextButton({Key? key, required  this.nextQuestion}) : super(key: key);
+  const NextButton({super.key, required  this.nextQuestion});
   final VoidCallback? nextQuestion;
 
   @override
